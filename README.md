@@ -89,7 +89,7 @@
                        It also displays an overlay of a welcome text for the users experience and interaction. This is to have                        an easy way to access the membership form.
   
              
-             - About:  This section is to keep thr user informed about the gym. Its aim and why they should choose to gym with                        us. 
+             - About:  This section is designed to keep the user informed about the gym. Its aim and why they should choose to                        gym with us. 
   
             
              - Services: This section is designed to show the users the different programs and classes offered by the gym to                            its members to help them get closer towards achieving their desired goals. 
@@ -169,16 +169,16 @@
    
    Testing:
    
-   This project is a static one which makes some of its features difficult to test as future work needs to be done. However,      the links on the navbar to the the sections have been tested and funtions well.
-   Every link takes you to the right sections. the home page keep the user on the first section since it is the homepage.        Though I am aware the homepage on the navbar could be deleted since it takes the user no 
-   where other than the first page that could be seen already. The reason why is there is to let them know that is the            Homepage. Every sections have been tested to ensure they all work well as intended.
+   This project is a static and intuitive one which makes some of its features difficult to test as future work needs to be      done. However, the links on the navbar to the the sections have been tested and funtions well.
+   
+   Every link takes you to the right sections. the home page keep the user on the first section since it is the homepage.        Though I am aware the homepage on the navbar could be deleted since it takes the user no where other than the first page      that could be seen already. The reason why is there is to let them know that is the Homepage. Every sections have been        tested to ensure they all work well as intended.
 
    The pictures works fine on the different sactions including the background pictures. 
    All links used for icons and buttons are tested to function well for the user experirnce to be achieved. Every details have    been provided to give the user a straightforward
    guidance towards achieving their goals. 
    
    These test have been done manually by me checking them out on the external website to ensure results are shown as expected. 
-   - The Html test code - code was ran on the html testing site through W3C markup validation service website - https://validator.w3.org/,
+   - The Html test code - code was ran on the html testing site through W3C markup validation service website -        https://validator.w3.org/,
    - Html viewer code beautify - https://codebeautify.org/htmlviewer/, 
 
    
@@ -204,7 +204,15 @@
 
     Deployment of PeaceGym website to GitHub:
     
-    Below is the step I followed to deploy my site to GitHub.
+    How to run this project locally
+                        To run this project on your own IDE :
+
+                        Ensure you have the tool GITPOD ONLINE IDE 
+
+                        Ensure to have a registered gitpod account inorderto access all functionalities on the site locally
+                        
+    
+   Below is the step I followed to deploy my site to GitHub.
      https://github.com/zappyemem/mile-stone-project-PeaceGym
     
     I typed all the command listed below on the terminal and pushed the code to the repository file that was created for the       project. 
