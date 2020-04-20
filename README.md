@@ -28,7 +28,8 @@
       
   
   Visitor Goals:
-       The main target audience for The Fitness gym are:
+  
+   The main target audience for The Fitness gym are:
 
    People who are interested in living a healthy life style-
    
@@ -41,6 +42,7 @@
    People who want to loss weight and keep fit. 
 
    
+  
   User goals includes:
 
    Meeting a targeted goal.
@@ -68,6 +70,7 @@
    Products on discount for members. 
        
 
+   
    These needs can be meet because:
 
    The website has been carefully designed to provide all the neccessary information required by the user and easy to            find. 
