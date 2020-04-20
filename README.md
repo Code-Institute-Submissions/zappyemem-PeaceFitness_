@@ -29,75 +29,79 @@
   
   Visitor Goals:
   
-   The main target audience for The Fitness gym are:
+   - The main target audience for The Fitness gym are:
 
-   People who are interested in living a healthy life style-
+   - People who are interested in living a healthy life style-
    
-   People who are interested in exercising.
+   - People who are interested in exercising.
    
-   People who have been recommended by pysician to work on certain part of their body. 
+   - People who have been recommended by pysician to work on certain part of their body. 
    
-   People who love to keep fit and body shapes. 
+   - People who love to keep fit and body shapes. 
    
-   People who want to loss weight and keep fit. 
+   - People who want to loss weight and keep fit. 
+   
+   - People who want to tone or muscles.
 
    
   
  
  User goals includes:
 
-   Meeting a targeted goal.
+   - Meeting a targeted goal.
    
-   Achieving a desired body shape to boost self confidence.
+   - Achieving a desired body shape to boost self confidence.
    
-   Accesses to different types of gym machines.
+   - Accesses to different types of gym machines.
    
-   Ability to gym in groups and stay motivated.
+   - Ability to gym in groups and stay motivated.
    
-   Opportunity for self development.
+   - Opportunity for self development.
    
-   Enjoy browing through the site for relevant informations.
+   - Enjoy browing through the site for relevant informations.
    
-   Access to free consultancy.
+   - Access to free consultancy.
    
-   Access to free 30days subscription.
+   - Access to free 30days subscription.
    
-   Flexible time.
+   - Flexible time.
+   
+   
+   
    
    Certified trainers.
    
-   Fitness classes and group training.
+   - Fitness classes and group training.
    
-   Products on discount for members. 
+   - Products on discount for members. 
        
 
    
-   
-   
+  
    These needs can be meet because:
 
-   The website has been carefully designed to provide all the neccessary information required by the user and easy to            find. 
+   The website has been carefully designed to provide all the neccessary information required by the user and easy to find. 
 
 
       
    User Stories:
-     As a visitor to The Peace Fitness website I expect/want/need:
+     As a visitor to The Peace Fitness website I expect or need:
       
-   To easily find the information they are looking for. 
+   - To easily find the information they are looking for. 
    
-   The information is presented a way the user can easily understand. 
+   - The information is presented a way the user can easily understand. 
    
-   There is no too much information that coild mislead the user. 
+   - There is no too much information that coild mislead the user. 
    
-   The site can be easily navigated and responsive from any device, desktop, tablet or phone. 
+   - The site can be easily navigated and responsive from any device, desktop, tablet or phone. 
    
-   To learn more about the gym and their services. In order to have a clear picture.
+   - To learn more about the gym and their services. In order to have a clear picture.
    
-   To display all information and images clearly and easy to understand manner irrespective of the size of screen.
+   - To display all information and images clearly and easy to understand manner irrespective of the size of screen.
    
-   To be able to pay and register online for membership.
+   - To be able to pay and register online for membership.
    
-   To be able to interact with the gym admistrators and get feedbacks. 
+   - To be able to interact with the gym admistrators and get feedbacks. 
 
    
    
@@ -197,16 +201,21 @@
    
    These test have been done manually by me checking them out on the external website to ensure results are shown as expected. 
    - The Html test code - code was ran on the html testing site through W3C markup validation service website -        https://validator.w3.org/,
-   - Html viewer code beautify - https://codebeautify.org/htmlviewer/, 
+  
+  - Html viewer code beautify - https://codebeautify.org/htmlviewer/, 
 
    
    Contact page:
       In the "Contact Us" page section 
-          I have tried to submit the empty form and verify that an error message about the required fields appears
-          I have tried to submit the form with an invalid email address and verify that a relevant error message appears
-          I have tried ry to submit the form with all inputs valid and verify that a success message appears.
-          The gym website has been tested and looks great on different screen sizes and works well on different browerser. I             have also tested them on the "Inspect" section on the web.
+   - I have tried to submit the empty form and verify that an error message about the required fields appears
+          
+   - I have tried to submit the form with an invalid email address and verify that a relevant error message appears
+          
+   - I have tried ry to submit the form with all inputs valid and verify that a success message appears.
+   
+   - The gym website has been tested and looks great on different screen sizes and works well on different browerser. I             have also tested them on the "Inspect" section on the web.
 
+   
    More on the Contact page:
                1. The contact page contains a form for the user to fill in to send the gym an email address.
                2. Name, email address and message are all required fields so that the shop owner receives all the information                   she needs to respond.
