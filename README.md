@@ -221,13 +221,19 @@
    Content: The photos used in this site were obtained from different free websites including:
 
    gym img - Photo by gina lin on Unsplash. https://unsplash.com/photos/m27OTMegUyA
-        image 1 - Photo by Clem Onojeghuo on Unsplash. https://unsplash.com/s/photos/gym?             utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-           image 2 - https://pixabay.com/photos/fitness-athlete-workout-exercise-2797472/ - Image by Nathanel Love from                            Pixabay
-           image 3 - https://pixabay.com/photos/adult-gym-athlete-dark-energy-1850925/
-           image 4 - https://www.pexels.com/search/fitness/
-           image 5 - https://pixabay.com/photos/yoga-group-fitness-exercise-female-1994667/ - Image by shushipu from Pixabay 
-           image 7 - https://www.pexels.com/search/workout/
-           image 8 - https://www.pexels.com/photo/man-holding-black-dumbbell-1229356/ - Photo by Anush Gorak from Pexels
+   image 1 - Photo by Clem Onojeghuo on Unsplash. https://unsplash.com/s/photos/gym?             utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+        
+   image 2 - https://pixabay.com/photos/fitness-athlete-workout-exercise-2797472/ - Image by Nathanel Love from                            Pixabay
+   
+   image 3 - https://pixabay.com/photos/adult-gym-athlete-dark-energy-1850925/
+   
+   image 4 - https://www.pexels.com/search/fitness/
+   
+   image 5 - https://pixabay.com/photos/yoga-group-fitness-exercise-female-1994667/ - Image by shushipu from Pixabay 
+   
+   image 7 - https://www.pexels.com/search/workout/
+   
+   image 8 - https://www.pexels.com/photo/man-holding-black-dumbbell-1229356/ - Photo by Anush Gorak from Pexels
 
    
    
