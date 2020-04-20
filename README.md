@@ -29,7 +29,7 @@
   
   Visitor Goals:
   
-   - The main target audience for The Fitness gym are:
+   The main target audience for The Fitness gym are:
 
    - People who are interested in living a healthy life style-
    
@@ -220,7 +220,7 @@
                1. The contact page contains a form for the user to fill in to send the gym an email address.
                2. Name, email address and message are all required fields so that the shop owner receives all the information                   she needs to respond.
                3. If the user has logged in, then their email address will be registered in the email field.
-               4. When the user clicks "send" the email is processed and sent via email to The Peace Fitness Gym email                           address.
+               4. When the user clicks "send" the email is processed and sent via email to The Peace Fitness email                           address.
           
           
   Colours: main colours used were red and darkgray and light blue. To give a unique and attractive look. 
@@ -229,27 +229,29 @@
 
 
 
-  Deployment of PeaceGym website to GitHub:
+  Deployment of PeaceFitness website to GitHub:
     
   How to run this project locally
-      To run this project on your own IDE :
-      Ensure you have the tool GITPOD ONLINE IDE 
-      Ensure to have a registered gitpod account inorderto access all functionalities on the site locally
+  To run this project on your own IDE :
+ 
+  - Ensure you have the tool GITPOD ONLINE IDE 
+      
+  - Ensure to have a registered gitpod account in order to access all functionalities on the site locally
                         
     
   Below is the step I followed to deploy my site to GitHub.
-     https://github.com/zappyemem/mile-stone-project-PeaceGym
+     https://github.com/zappyemem/PeaceFitness
     
-  I typed all the commands listed below on the terminal and pushed the code to the repository file that was created for the       project. 
+  I typed all the commands listed below on the terminal and pushed the code to the repository file that was created for the project. 
     
     
-  git init
-  git status
-  git add .
-  git commit -m "first commit" .
-  git status
-  git push
-  To https://github.com/zappyemem/mile-stone-project-PeaceGym.git d24b152..9d0176e  master -> master
+  - git init
+  - git status
+  - git add .
+  - git commit -m "first commit" .
+  - git status
+  - git push
+  - To https://github.com/zappyemem/PeaceFitness
     
     
      
@@ -303,7 +305,7 @@ Youtube tutorials:
          
            
  Acknowledgements:
-  I would like to say a special thank you to my mentor Gerard McBride, the student care support, Tutor Assistance, slack,       community and student care for their tremendous support during the time of developing this project.
+  I would like to say a special thank you to my mentor Gerard McBride, the student care support, Tutor Assistance, slack, community and student care for their tremendous support during the time of developing this project.
            
   I received inspiration for this project from my love for sports and gym. 
 
