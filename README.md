@@ -5,27 +5,28 @@
 
   
 
-        A brief project method:
-            As mentioned earlier the aim of the project is to reach out to people who are interested in change, personal                   development, fitness and a live a healthy lifestyle. The passion is driven from my love for staying healthy,                   maintaining a sound mind, pyhsical fitness and my love for gym. Also is my passion to see people achieve their                 goals through hardwork. 
+  A brief project method:
+   
+   As mentioned earlier the aim of the project is to reach out to people who are interested in change, personal development,     fitness and a live a healthy lifestyle. The passion is driven from my love for staying healthy, maintaining a sound mind,     pyhsical fitness and my love for gym. Also is my passion to see people achieve their goals through hardwork. 
             
-            I feel starting up a gym will give me a platform to help reach out to many who are currently struggling with                   weight loss, low self esteem and poor dieting leading to poor health conditions. 
+  I feel starting up a gym will give me a platform to help reach out to many who are currently struggling with                   weight loss, low self esteem and poor dieting leading to poor health conditions. 
             
-            After going through all the courses I have gathered little knowledge on how to design a simple website like this.             I have also watched lots of tutorials which are listed below and got the section designs from looking at different             gym sites 
+  After going through all the courses I have gathered little knowledge on how to design a simple website like this.             I have also watched lots of tutorials which are listed below and got the section designs from looking at different             gym sites 
               e.g https://www.friskissvettis.se/ and https://se.fitness24seven.com/vara-gym/se-vara-gym/goteborg-kviberg/
                
-              Futher details about the project are given below.  
+  Futher details about the project are given below.  
   
    
    User Experience process:
 
-      This project is designed for everyone, young, old, female or male irrespective of their age and sizes. The aim of the         gym is to promote and encourage a healthy lifestyle and sound health for people. There are certified trainers avaliable       for people that may require special training as well as every other persons that requires one. Hence, the gym provides a       free consultation for its members. 
+   This project is designed for everyone, young, old, female or male irrespective of their age and sizes. The aim of the         gym is to promote and encourage a healthy lifestyle and sound health for people. There are certified trainers avaliable       for people that may require special training as well as every other persons that requires one. Hence, the gym provides a       free consultation for its members. 
    
-      There are several benefit attached to being a member at our gym ranging from proffessional advice to up-to-dat                 equipments and machines put in place to help members achieve their desired goals.
+  There are several benefit attached to being a member at our gym ranging from proffessional advice to up-to-dat                 equipments and machines put in place to help members achieve their desired goals.
        
-      The gym provides classes, group trainings, free consultations, trainers, equipment for all levels i.e light, heavy,           medium weight to best suit each members level of activities. The machines can be set to desired levels and many more.         Group activities are created to inspire members as training together can help build relationships and consistency toward       arriving at set goals. Different actions are put in place that will help them achieve their goals. 
+  The gym provides classes, group trainings, free consultations, trainers, equipment for all levels i.e light, heavy,           medium weight to best suit each members level of activities. The machines can be set to desired levels and many more.         Group activities are created to inspire members as training together can help build relationships and consistency toward       arriving at set goals. Different actions are put in place that will help them achieve their goals. 
       
       
-      Visitor Goals
+  Visitor Goals
        The main target audience for The Fitness gym are:
 
        People who are interested in living a healthy life style-
