@@ -235,15 +235,24 @@
             The following youtube tutorials helped me with understanding how to use Boothstrap and html codes.
     
    1. https://www.patreon.com/clevertechie - https://www.youtube.com/watch?v=L0uNai3XyKQ&list=PLYsknCZ8zCFoDzJj3L3-n71s57E0ktX-w&index=2&t=154s 
-           2. w3newbie - http://youtu.be/xAm2aKLtV6k - https://www.youtube.com/watch?v=87ONyGaOlh4&list=PLYsknCZ8zCFoDzJj3L3-n71s57E0ktX-w&index=3&t=0s
-           3. Academind - Using the Bootstrap 4 Grid | BOOTSTRAP 4 TUTORIAL - https://www.youtube.com/watch?v=qmPmwdshCMw&list=PLYsknCZ8zCFoDzJj3L3-n71s57E0ktX-w&index=4&t=0s
-           4.  https://www.youtube.com/watch?v=KbMJPNXYYnw - This was used to understand how to use the scroll to link section.
-           5. https://www.youtube.com/watch?v=23bpce-5s8I, https://www.youtube.com/watch?v=L0uNai3XyKQ&t=202s - Where both used to understand bootstrap and how the columns and rows work. 
-           6. https://www.youtube.com/watch?v=zDpCejbl1sU
-           7. https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
-           8. https://www.youtube.com/watch?v=qIULMnbH2-o&list=PL6gx4Cwl9DGBPw1sFodruZUPheWVKchlM - 
-           9. https://www.youtube.com/watch?v=hnCmSXCZEpU
-           10. https://www.youtube.com/watch?v=w4xa_u80qF4 - tutorail to buide a responsive contact form. 
+   
+   2. w3newbie - http://youtu.be/xAm2aKLtV6k - https://www.youtube.com/watch?v=87ONyGaOlh4&list=PLYsknCZ8zCFoDzJj3L3-n71s57E0ktX-w&index=3&t=0s
+           
+   3. Academind - Using the Bootstrap 4 Grid | BOOTSTRAP 4 TUTORIAL - https://www.youtube.com/watch?v=qmPmwdshCMw&list=PLYsknCZ8zCFoDzJj3L3-n71s57E0ktX-w&index=4&t=0s
+           
+   4.  https://www.youtube.com/watch?v=KbMJPNXYYnw - This was used to understand how to use the scroll to link section.
+           
+   5. https://www.youtube.com/watch?v=23bpce-5s8I, https://www.youtube.com/watch?v=L0uNai3XyKQ&t=202s - Where both used to understand bootstrap and how the columns and rows work. 
+   
+   6. https://www.youtube.com/watch?v=zDpCejbl1sU
+   
+   7. https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+   
+   8. https://www.youtube.com/watch?v=qIULMnbH2-o&list=PL6gx4Cwl9DGBPw1sFodruZUPheWVKchlM - 
+   
+   9. https://www.youtube.com/watch?v=hnCmSXCZEpU
+   
+   10. https://www.youtube.com/watch?v=w4xa_u80qF4 - tutorail to buide a responsive contact form. 
 
 
          
