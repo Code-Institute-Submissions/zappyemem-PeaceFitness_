@@ -43,7 +43,8 @@
 
    
   
-  User goals includes:
+ 
+ User goals includes:
 
    Meeting a targeted goal.
    
@@ -70,6 +71,8 @@
    Products on discount for members. 
        
 
+   
+   
    
    These needs can be meet because:
 
@@ -100,7 +103,7 @@
    
    Features:
 
-   - Navbar: The navbar is designed to give the users a quick access to the different informations that has been                    provided to assist them. Such as: Home, The About section, Services provided, Features sections and the contact Us.
+   - Navbar: The navbar is designed to give the users a quick access to the different informations that has been provided to                assist them. Such as: Home, The About section, Services provided, Features sections and the contact Us.
   
            
    - Home:   The homepage shows an overview of the inside of the gym. Displaying some of the many machines avaliable                        for the users during their time at the gym.
