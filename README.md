@@ -1,7 +1,7 @@
   First Milestone Project
-       Project's Name - Peace Fitness Gym:
+       Project's Name - Peace Fitness:
   
-              Peace Fitness Gym is a general body fitness center for good health and personal development. The key to sound                 health and vitality. It aims to give users the ability to deliver their goals with excellence through a                       progressive actualization of a predetermined goal. 
+              Peace Fitness is a gym for general body fitness center for good health and personal development. The key to                   sound health and vitality. It aims to give users the ability to deliver their goals with excellence through a                 progressive actualization of a predetermined goal. 
               
               The goal is to encourage members work header and get stronger while living a healthy life style.
               The gym provides different services that would help members remain focus towards achieving thier goals. It has                 flexible opening hours and personal trainers that would fit individual time table. 
