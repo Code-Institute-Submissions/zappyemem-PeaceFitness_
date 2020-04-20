@@ -237,7 +237,9 @@
 
    
    
- Youtube tutorials: 
+ 
+ 
+Youtube tutorials: 
             The following youtube tutorials helped me with understanding how to use Boothstrap and html codes.
     
    1. https://www.patreon.com/clevertechie - https://www.youtube.com/watch?v=L0uNai3XyKQ&list=PLYsknCZ8zCFoDzJj3L3-n71s57E0ktX-w&index=2&t=154s 
