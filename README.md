@@ -1,7 +1,7 @@
-  First Milestone Project
-       Project's Name - Peace Fitness Gym:
+  First Milestone Project PeaceGym
+       Project's Name - Peace Fitness:
   
-              Peace Fitness Gym is a general body fitness center for good health and personal develop. The ability to deliver your goal with excellence through a progressive actualization of a predetermined goal. 
+              Peace Fitness is a general body fitness center for good health and personal develop. The ability to deliver your goal with excellence through a progressive actualization of a predetermined goal. 
                    The goal is to encourage members work header and get stronger while living a healthy life style.
                        The gym provides different services that would help members remain focus towards achieving thier goals. It has flexible opening hours and personal trainer that would fit individual time table. 
 
@@ -29,10 +29,65 @@
       to best suit each members level of activities. The machines can be set to desired levels and many more. Group activities are created to inspire members as training together can 
       help build relationships and consistency toward arriving at set goals. 
       Different actions are put in place that will help them achieve their goals. 
+
+
+
    
+        Visitor Goals
+   The main target audience for "The Peace Fitness" are:
+
+   People who are interested in living a healthy life style-
+   People who are interested in exercising.
+   People who have been recommended by Pysiotherapist to work and certain on certain areas of their body. 
+   People who love to keep fit and body shapes. 
+
+      
+      User goals includes:
+
+   Meeting a targeted goal.
+   Achieving a desired body shape to boost self confidence.
+   Accesses to different types of gym machines.
+   Ability to gym in groups and stay motivated.
+   Opportunity for self development.
+   Enjoy browing through the site for relevant informations.
+   Access to free consultancy.
+   Access to free 30days subscription.
+   Flexible time.
+   Certified trainers.
+   Fitness classes and group training.
+   Products on discount for members. 
    
+
+   These needs can be meet because:
+
+   The website has been carefully designed to provide all the neccessary information required by the user and easy to            find. 
+
+
+  
+   User Stories
+   As a visitor to The Peace Fitness website I expect/want/need:
+
+   To easily find the information they are looking for. 
+
+   The information is presented a way the user can easily understand. 
    
-   Features:
+   There is no too much information that coild mislead the user. 
+
+   The site can be easily navigated and responsive from any device, desktop, tablet or phone. 
+
+   To learn more about the gym and their services. In order to have a clear picture.
+
+   To display all information and images clearly and easy to understand manner irrespective of the size of screen.
+   
+   To be able to pay and register online for membership.
+   
+   To be able to interact with the gym admistrators and get feedbacks. 
+   
+      
+      
+      
+      
+       Features:
 
              - Navbar: The navbar is designed to give the users a quick access to the different informations that has been provided to assist them. 
                        Such as: Home, The About section, Services provided, Features sections and the contact Us.
@@ -42,7 +97,7 @@
                        It also displays an overlay of a welcome text for the users experience and interaction. This is to have an easy way to access the membership form.
   
              
-             - About:  This section is to keep thr user informed about the gym. Its aim and why they should choose to gym with us. 
+             - About:  This section is to keep the user informed about the gym. Its aim and why they should choose to gym with us. 
   
             
              - Services: This section is designed to show the users the different programs and classes offered by the gym to its members to help them get closer towards achieving their desired goals. 
@@ -64,6 +119,8 @@
   
              - The welcome feature on the home page section allows users to have access to the membership suscription by clicking on the 'Jion now' button. By having them feel out the subcription form.
      
+   
+   
    
    Another feature idea:
 
@@ -102,9 +159,9 @@
 
     - Gitpodto create workspaces.
 
-   - The project uses Boothstrap CDN, Font awesome and Icons links. 
+    - The project uses Boothstrap CDN, Font awesome and Icons links. 
 
-   - Bootsstrap templates was used in the project. Bootsstrap will ensure mobile-first responsiveness. 
+    - Bootsstrap templates was used in the project. Bootsstrap will ensure mobile-first responsiveness. 
 
    
 
@@ -155,41 +212,35 @@
 
 
 
-    Deployment:
 
-    How to run this project locally:
+    Deployment of Peace Fitness website to GitHub:
 
-        To run this project on your own IDE follow the instructions below:
+         How to run this project locally
+                        To run this project on your own IDE :
 
-          - Ensure you have the following tools: - An IDE such as Visual Studio Code
+                        Ensure you have the tool GITPOD ONLINE IDE 
 
-        
+                        Ensure to have a registered gitpod account inorderto access all functionalities on the site locally
 
-    Instructions
-         Save a copy of the github repository located at https://github.com/zappyemem/mile-stone-project-PeaceGym 
-         by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. 
-         If you have Git installed on your system, you can clone the repository with the following command.
+                        
 
-             git clone https://github.com/zappyemem/mile-stone-project-PeaceGym 
-                Open your preferred IDE, open a terminal session in the unzip folder or cd to the correct location.
+         Below is the step I followed to deploy my site to GitHub.
+                         https://github.com/zappyemem/mile-stone-project-PeaceGym
 
-                   Once instances of these items exist in your database your local site will run as expected.
+               I typed all these command listed below on the terminal and pushed the code to the repository file that was created for the project on GitHub. 
 
-      Peace Fitness Gym
-              To deploy Peace Fitness Gym:
 
-                       Create a requirements.txt file using the terminal command pip freeze > requirements.txt.
-
-                       Create a Profile with the terminal command echo web: python app.py > Procfile.
-
-                       git add and git commit the new requirements and Procfile and then git push the project to GitHub.
+               git init
+               git status
+               git add .
+               git commit -m "first commit" .
+               git status
+               git push
+                     To https://github.com/zappyemem/mile-stone-project-PeaceGym.git. d24b152..9d0176e master -> master
 
                        
 
-
-
-    
-    Credits:
+       Credits:
 
            Content
            The text for section Y was copied from the Wikipedia article Z
@@ -232,11 +283,5 @@
            I received inspiration for this project from my love for sports and gym. 
 
     Feel free to contact me through my email zappy4chat@yahoo.com
-
-
-
- 
- 
-
 
 
