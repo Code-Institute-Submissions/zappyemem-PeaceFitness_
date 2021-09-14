@@ -21,9 +21,9 @@ mongo = PyMongo(app)
 
 @app.route("/")
 @app.route("/fitness_updates")
-def get_fitness_updates():
-    fitness_updates = mongo.db.fitness_updates.find()
-    return render_template("fitness_updates.html", fitness_updates=fitness_updates)
+def get_trainings():
+    trainings = mongo.db.trainings.find()
+    return render_template("fitness_updates.html", trainings=trainings)
 
 
 

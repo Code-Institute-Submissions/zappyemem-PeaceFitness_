@@ -7,11 +7,11 @@
     <title>fitness Updates</title>
 </head>
 <body>
-    {% for fitness_update in fitness_updates  %}
-       {{ fitness_update.category_name }}<br>
-       {{ fitness_update.training_program}}<br>
-       {{ fitness_update.exercise_description}}<br>
-       {{ fitness_update.training_date}}<br>
+    {% for training in trainings  %}
+       {{ training.category_name }}<br>
+       {{ training.program_name }}<br>
+       {{ training.exercise_description}}<br>
+       {{ training.training_date}}<br>
     {% endfor %}
 </body>
 </html>
