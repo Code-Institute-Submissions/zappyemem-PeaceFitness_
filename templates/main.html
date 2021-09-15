@@ -8,12 +8,14 @@
 		type="text/css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="static/css/style.css">
 	<title>Peace Fitness</title>
 
 </head>
 
 <body>
+	{% block content %}
+	{% endblock %}
 
 	<!--Header Logo and Navigation bar/Home page here-->
                    <header>
@@ -48,6 +50,7 @@
 		                            	</div>
 		                        </nav>
                         </section>
+
 	                </header>
     <!------End of Header Logo and Navigation bar------>              
 
@@ -79,12 +82,6 @@
 <!------------- End of subscribe section ----------->
 
     <!-------- End of Welcome text on the Home page ------------->
-
-
-
-
-                  
-
 	
     <!---------Start of features section --------->
 
@@ -92,7 +89,7 @@
 	                           	<div class="container">
 		                               <div class="row">
 			                            	<div class="col-md-6">
-					                                <img src="assets/images/img7.jpg" class="img-fluid">
+					                                <img src="static/assets/images/img7.jpg" class="img-fluid">
                                             </div>
 
 					                        <div class="col-md-6">
