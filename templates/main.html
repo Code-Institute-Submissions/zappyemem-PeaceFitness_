@@ -43,7 +43,7 @@
 						                            <a class="nav-link" href="#features">Features</a>
 					                            </li>
 												<li class="nav-item">
-						                            <a class="nav-link" href="#Profile">Profile</a>
+						                            <a class="nav-link" href="{{ url_for('profile', username=session['user']) }}">Profile</a>
 												</li>
 												<li class="nav-item">
 						                            <a class="nav-link" href="#Account">Account</a>
@@ -52,7 +52,7 @@
 						                            <a class="nav-link" href="#Categories">Categories</a>
 												</li>
 					                            <li class="nav-item">
-						                            <a class="nav-link" href="#Log in">Log in</a>
+						                            <a class="nav-link" href="{{ url_for('login') }}">Log in</a>
 					                            </li>
 												<li class="nav-item">
 						                            <a class="nav-link" href="#Log out">Log Out</a>
