@@ -1,5 +1,8 @@
 {% extends "main.html" %} {% block training %}
 
+<br>
+<br>
+
 <section id="welcome">
     <div class="container">
          <div class="welcome text-center">
@@ -34,13 +37,15 @@
                                 <!--end of col-->
                             </div>
         </div>
+        <br>
+        <br>
         {% if trainings|length > 0 %}
         <div class="row">
             {% for training in trainings %}
                 <div class="card-content">
-                    <p><strong>{{ trainings.program_name }}</strong> : {{ trainings.training_date }}</p>
-                    <strong>{{ trainings.category_name }}</strong>
-                <p>{{ trainings.exercise_description }}</p>
+                    <p><strong>{{ training.program_name }}</strong> : {{ training.training_date }}</p>
+                    <strong>{{ training.category_name }}</strong>
+                <p>{{ training.exercise_description }}</p>
                 <p><em>by: {{ training.created_by }}</em></p>
                 </div>
             
@@ -50,7 +55,7 @@
                         <a href="{{ url_for('edit_tip', tip_id=tip._id) }}" class="btn-small yellow darken-3">Edit</a>
                     </div>
                 {% endif %}
-                --->
+                
                 </div>
             </div>
             

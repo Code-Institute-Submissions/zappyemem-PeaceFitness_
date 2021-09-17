@@ -1,0 +1,57 @@
+{% extends "main.html" %}
+{% block training %}
+
+    <h3 class="center-align">Update Account</h3>
+    <!------------Category Selection------------->
+<div class="row card-panel">
+    <div class="row">
+        <div class="input-field col s12">
+            <i class="fas fa-folder-open prefix"></i>
+            <select id="category_name" name="category_name" class="validate" required>
+                <option value="" disabled selected>Choose Category</option>
+                {% for category in categories %}
+                   <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                {% endfor %}
+            </select>
+            <label for="category_name"></label>
+        </div>
+        </div>
+        <form class="col s12" method="POST" action="{{ url_for('add_exercise') }}" enctype="multipart/form-data">
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-pencil-alt prefix"></i>
+                    <input id="program_name" name="program_name" minlength="5" maxlength="50"
+                        type="text" class="validate" required>
+                    <label for="Program_name">Program Name</label>
+                </div>
+            </div>
+            <!----------------------Tips Description-------------->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-align-left prefix"></i>
+                    <textarea id="exercise_description" name="exercise_description" minlength="5"
+                        maxlength="200" class="materialize-textarea validate" required></textarea>
+                    <label for="exercise_description">Exercise Description</label>
+                </div>
+            </div>
+            <!---------------Tips Date------------->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-calendar-alt prefix"></i>
+                    <input id="tips_date" name="tips_date" type="text" class="datepicker validate" required>
+                    <label for="tips_date">Training Date</label>
+                </div>
+            </div>
+
+            <!---------------Submit Button -------------->
+            <div class="row">
+                <div class="col s12 center-align">
+                <button class="btn-large teal lighten-1" type="submit" name="action">Update Account
+                    <i class="fas fa-plus-square right"></i>
+                </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}

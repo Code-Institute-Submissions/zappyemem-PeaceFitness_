@@ -110,6 +110,27 @@ def logout():
     return redirect(url_for("login"))
 
 
+@app.route("/add_exercise", methods=["GET", "POST"])
+def add_exercise():
+    if request.method == "POST":
+
+        training = {
+            "category_name": request.form.get("category_name"),
+            "program_name": request.form.get("program_name"),
+            "exercise_description": request.form.get("exercise_description"),
+            "training_date": request.form.get("training_date"),
+            "created_by": session["user"]
+        }
+
+        mongo.db.trainings.insert_one(training)
+        flash("Account Update Successfully ")
+        return redirect(url_for("trainings"))
+
+    categories = mongo.db.categories.find().sort("category_name", 1)
+    return render_template("update_account.html", categories=categories)
+
+
+
 
 
 if __name__ == "__main__":
