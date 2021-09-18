@@ -1,7 +1,7 @@
 {% extends "main.html" %}
 {% block training %}
 
-    <h3 class="center-align">Update Account</h3>
+<h3 class="center-align">Update Account</h3>
     <!------------Category Selection------------->
 <div class="row card-panel">
     <div class="row">
@@ -30,7 +30,7 @@
                 <div class="input-field col s12">
                     <i class="fas fa-align-left prefix"></i>
                     <textarea id="exercise_description" name="exercise_description" minlength="5"
-                        maxlength="200" class="materialize-textarea validate" required></textarea>
+                        maxlength="200" class="textarea validate" required></textarea>
                     <label for="exercise_description">Exercise Description</label>
                 </div>
             </div>
@@ -38,8 +38,8 @@
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-calendar-alt prefix"></i>
-                    <input id="tips_date" name="tips_date" type="text" class="datepicker validate" required>
-                    <label for="tips_date">Training Date</label>
+                    <input id="training_date" name="training_date" type="text" class="datepicker validate" required>
+                    <label for="training_date">Training Date</label>
                 </div>
             </div>
 
@@ -53,5 +53,6 @@
             </div>
         </form>
     </div>
+
 
 {% endblock %}

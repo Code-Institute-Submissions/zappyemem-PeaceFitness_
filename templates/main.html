@@ -71,8 +71,12 @@
     <!------End of Header Logo and Navigation bar------>              
 	<section>
 		<!------Flash Messages----->{% with messages = get_flashed_messages() %} {% if messages %} {% for messages in messages %}
+		
 		<div class="row flashes">
 			<h4 class="class lighten-1 center-align">{{ messages }}</h4> </div> {% endfor %} {% endif %} {% endwith %} </section>
+			<br>
+		<br>
+		<br>
     <main class="class container"> {% block training %} {% endblock %} </main>
 
 	<!------ Start of Welcome text on the Home page ------------>

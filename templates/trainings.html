@@ -1,5 +1,4 @@
 {% extends "main.html" %} {% block training %}
-
 <br>
 <br>
 
@@ -17,17 +16,18 @@
             <br/>
             <div class="row justify-content-center">
                                 <div class="col-12 col-md-10 col-lg-8">
-                                    <form class="card card-sm">
+                                    <form class="card card-sm" action="{{url_for('search') }}" method="post">
                                         <div class="card-body row no-gutters align-items-center">
                                             <div class="col-auto">
                                                 <i class="fas fa-search h4 text-body"></i>
-                                            </div>
-                                            <!--end of col-->
-                                            <div class="col">
-                                                <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords">
+                                
+                                                <input type="text" name="query" id="query" minlength="3" class="validate" required>
+                                                
+                                                <label for="query">Search Account</label>
                                             </div>
                                             <!--end of col-->
                                             <div class="col-auto">
+                                                <a href="{{url_for('trainings')}}" class="btn btn-danger">Reset</a>
                                                 <button class="btn btn-lg btn-success" type="submit">Search</button>
                                             </div>
                                             <!--end of col-->
@@ -69,6 +69,7 @@
              </div>
              </div>
 </section>
+
 
     
         
