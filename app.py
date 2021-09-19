@@ -130,6 +130,69 @@ def add_exercise():
     return render_template("update_account.html", categories=categories)
 
 
+@app.route("/edit_account/<training_id>", methods=["GET", "POST"])
+def edit_account(training_id):
+    if request.method == "POST":
+        submit = {
+            "category_name": request.form.get("category_name"),
+            "program_name": request.form.get("program_name"),
+            "exercise_description": request.form.get("exercise_description"),
+            "trainig_date": request.form.get("training_date"),
+            "created_by": session["user"]
+        }
+        
+        mongo.db.tips.update({"_id": ObjectId(training_id)}, submit)
+        flash("Account Updated Successfully ")
+
+    training = mongo.db.tips.find_one({"_id": ObjectId(training_id)})
+    categories = mongo.db.categories.find().sort("category_name", 1)
+    return render_template("edit_account.html", training=training, categories=categories)
+
+
+@app.route("/delete_training/<training_id>")
+def delete_training(training_id):
+    mongo.db.trainings.remove({"_id": ObjectId(training_id)})
+    flash("Training Deleted Succesfully")
+    return redirect(url_for("trainings"))
+
+@app.route("/get_categories")
+def get_categories():
+    categories = list(mongo.db.categories.find().sort("category_name", 1))
+    return render_template("categories.html", categories=categories)
+
+@app.route("/add_category", methods=["GET", "POST"])
+def add_category():
+    if request.method == "POST":
+        category = {
+            "category_name": request.form.get("category_name")
+        }
+        mongo.db.categories.insert_one(category)
+        flash("New Category Added")
+        return redirect(url_for("get_categories"))
+
+    return render_template("add_categories.html")
+
+@app.route("/edit_category/<category_id>",methods=["GET", "POST"])
+def edit_category(category_id):
+    if request.method == "POST":
+        submit = {
+            "category_name": request.form.get("category_name")
+        }
+        mongo.db.categories.update({"_id": ObjectId(category_id)}, submit)
+        flash("Category Updated Successfully")
+        return redirect(url_for("get_categories"))
+
+    category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
+    return render_template("edit_category.html", category=category)
+
+@app.route("/delete_category/<category_id>")
+def delete_category(category_id):
+    
+    mongo.db.categories.remove({"_id": ObjectId(category_id)})
+    flash("Category Successfully Deleted")
+    return redirect(url_for("get_categories")) 
+
+
 
 
 

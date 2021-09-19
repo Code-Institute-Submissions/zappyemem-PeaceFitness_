@@ -1,0 +1,64 @@
+{% extends "main.html" %}
+{% block training %}
+
+<h3 class="center-align">Edit Update Account</h3>
+    <!------------Category Selection------------->
+<div class="row card-panel">
+    <div class="row">
+        <div class="input-field col s12">
+            <i class="fas fa-folder-open prefix"></i>
+            <select id="category_name" name="category_name" class="validate" required>
+                <option value="" disabled>Choose Category</option> {% for category in categories %} {% if category.category_name == training.category_name %}
+				<option value="{{ category.category_name }}" selected>{{ category.category_name }}</option> {% else %}
+				<option value="{{ category.category_name }}">{{ category.category_name }}</option> {% endif %} {% endfor %} 
+                {% for category in categories %}
+                   <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                {% endfor %}
+            </select>
+            <label for="category_name"></label>
+        </div>
+        </div>
+        <form class="col s12" method="POST" action="{{ url_for('edit_account', training_id=training._id) }}">
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-pencil-alt prefix"></i>
+                    <input id="program_name" name="program_name" minlength="5" maxlength="50"
+                      value="{{ training.program_name }}"  type="text" class="validate" required>
+                    <label for="Program_name">Program Name</label>
+                </div>
+            </div>
+            <!----------------------Exercise Description-------------->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-align-left prefix"></i>
+                    <textarea id="exercise_description" name="exercise_description" minlength="5"
+                        maxlength="200" class="textarea validate" required>
+                        {{- training.exercise_description -}}
+                    </textarea>
+                    <label for="exercise_description">Exercise Description</label>
+                </div>
+            </div>
+            <!---------------Trainings Date------------->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-calendar-alt prefix"></i>
+                    <input id="training_date" name="training_date" type="text" value="{{ training.training_date }}" class="datepicker validate" required>
+                    <label for="training_date">Training Date</label>
+                </div>
+            </div>
+
+            <!---------------Submit Button -------------->
+            <div class="row">
+                <div class="col s12 center-align">
+                    <!-----------------Cancel Button------------------>
+                <a href="{{ url_for('trainings') }}" class="btn btn-warning"></a>
+                <button class="btn btn-success teal lighten-1" type="submit" name="action">Update Account
+                    <i class="fas fa-plus-square right"></i>
+                </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+{% endblock %}
