@@ -20,7 +20,7 @@
 	<div class="col s12 m3">
 		<div class="card teal darken-4 text-shadow center-align">
 			<div class="card-content white-text"> <span class="card-title">{{ category.category_name }}</span> </div>
-			<div class="card-action"> <a href="{{ url_for('edit_category',category_id=category._id) }}" class="btn yellow accent-4">Edit</a> {# <a href="{{ url_for('delete_category',category_id=category._id) }}" class="btn red lighten-1">Delete</a>#} <a id="confirm_modal_button" onclick="openModal()" data-url="{{ url_for('delete_category',category_id=category._id) }}" class="btn red lighten-1">Delete</a> </div>
+			<div class="card-action"> <a href="{{ url_for('edit_category',category_id=category._id) }}" class="btn btn-warning btn-sm active">Edit</a> {# <a href="{{ url_for('delete_category',category_id=category._id) }}" class="btn btn-danger btn-sm active">Delete</a>#} <a id="confirm_modal_button" onclick="openModal()" data-url="{{ url_for('delete_category',category_id=category._id) }}" class="btn btn-danger btn-sm active">Delete</a> </div>
 		</div>
 	</div> {% endfor %} </div>
 
