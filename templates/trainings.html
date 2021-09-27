@@ -14,21 +14,21 @@
          </div>
          <div class="container">
             <br/>
-            <div class="row justify-content-center">
-                                <div class="col-12 col-md-10 col-lg-8">
+         <!-------- <div class="row justify-content-center">---------->  
+                                <div class="form-inline d-flex justify-content-center md-form form-sm mt-0">
                                     <form class="card card-sm" action="{{url_for('search') }}" method="post">
-                                        <div class="card-body row no-gutters align-items-center">
+                               <!----------- <div class="card-body row no-gutters align-items-center">
                                             <div class="col-auto">
                                                 <i class="fas fa-search h4 text-body"></i>
-                                
-                                                <input type="text" name="query" id="query" minlength="3" class="validate" required>
+                                ------------------->  <label for="query">Search Account</label>      
+                                                <input type="text form-control form-control-sm mr-3 w-75" name="query" id="query" minlength="3" class="validate" required>
                                                 
-                                                <label for="query">Search Account</label>
-                                            </div>
+                                                
+                                           
                                             <!--end of col-->
-                                            <div class="col-auto">
-                                                <a href="{{url_for('trainings')}}" class="btn btn-danger">Reset</a>
-                                                <button class="btn btn-lg btn-success" type="submit">Search</button>
+                                            <div class="col-auto center-align">
+                                                <a href="{{url_for('trainings')}}" class="btn btn-sm btn-warning">Reset</a>
+                                                <button class="btn btn-sm btn-success" type="submit">Search</button>
                                             </div>
                                             <!--end of col-->
                                         </div>
@@ -42,6 +42,8 @@
         {% if trainings|length > 0 %}
         <div class="row">
             {% for training in trainings %}
+            <div class="card bg-light mb-3" style="width: 18rem;">
+                <div class="card-body">
                 <div class="card-content">
                     <p><strong>{{ training.program_name }}</strong> : {{ training.training_date }}</p>
                     <strong>{{ training.category_name }}</strong>
@@ -51,8 +53,8 @@
             
                 {% if session.user|lower == training.created_by|lower %}
                     <div class="card-action">
-                        <a href="{{ url_for('delete_training', training_id=training._id) }}" class="btn-small blue lighten-1">Done</a>
-                        <a href="{{ url_for('edit_account', training_id=training._id) }}" class="btn-small yellow darken-3">Edit</a>
+                        <a href="{{ url_for('delete_training', training_id=training._id) }}" class="btn btn-danger btn-sm active">Delete</a>
+                        <a href="{{ url_for('edit_account', training_id=training._id) }}" class="btn btn-success btn-sm active">Edit</a>
                     </div>
                 {% endif %}
                 
@@ -60,7 +62,8 @@
             </div>
             
             {% endfor %}
-        
+        </div>
+        </div>
         </div>
         {% else %}
          <h3 class="red-text text-darken-4 center-align">No Results Found</h3>
@@ -68,7 +71,7 @@
                        
              </div>
              </div>
-</section>
+</section><br>
 
 
     
