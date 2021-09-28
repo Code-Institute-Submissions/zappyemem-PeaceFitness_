@@ -41,7 +41,16 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="fas fa-calendar-alt prefix"></i>
-                        <input id="training_date" name="training_date" type="text" class="datepicker validate form-control form-control-sm" required>
+              
+
+                        <div class="input-group date" data-provide="datepicker">
+                            <input id="training_date" name="training_date" type="text" class="datepicker" required>
+                            <div class="input-group-addon">
+                                <span class="glyphicon glyphicon-th"></span>
+                            </div>
+                        </div>
+
+
                         <label for="training_date"><h5>Training Date</h5></label>
                     </div>
                 </div>

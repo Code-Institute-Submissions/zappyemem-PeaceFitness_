@@ -49,21 +49,18 @@ Afterwards Akinz decided to register and give it a trial.
 
  ### Colour
 
- <img src="">
+<img src="static/assets/images/fonts.png">
 
  ## Wireframes
 
  ### Desktop View
 
-<img src="">
+<img src="static/assets/images/mainwire.png">
 
 ### Tablet View
 
-<img src="">
+<img src="static/assets/images/tabwire.png">
 
-### Mobile View
-
-<img src="">
 
 
 ## Features

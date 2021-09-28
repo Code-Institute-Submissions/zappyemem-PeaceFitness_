@@ -1,7 +1,8 @@
-// $('.datepicker').datepicker();
 
 
 $(document).ready(function(){
+    $('.datepicker').datepicker();
+    
     $('.delete_training').on('click', function(e){
         e.preventDefault();
         let item_id = $(this).attr('id'); 
@@ -36,6 +37,24 @@ $(document).ready(function(){
 
 
       
+    })
+
+    $('.logout_btn').on('click', function(e){
+        e.preventDefault(); 
+
+        bootbox.confirm({
+            size: "small",
+            message: "Are you sure you want to logout ?",
+            callback: function (result) { /* result is a boolean; true = OK, false = Cancel*/
+              if(result==true){
+                  window.location.href="/logout"
+               
+              }
+
+
+
+            }
+        })
     })
   
 })
