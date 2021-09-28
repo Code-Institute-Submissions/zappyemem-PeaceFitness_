@@ -11,16 +11,14 @@
                 Add Category <i class="fas fa-plus-square right"></i>
             </a> </div>
 </div>
-<div id="confirm_modal" class="modal" style="max-width: 300px; transition: 0.4s; top: 100px; z-index: 100">
-	<div class="modal-content bg-success text-white text-shadow center-align">
-		<h4>Really Delete?</h4> </div>
-	<div class="modal-footer" style="text-align: center"> <a onclick="hideModal()" class="btn yellow accent-4">No</a> <a href="#" id="yes_confirm" class="btn red lighten-1">Yes</a> </div>
-</div>
 <div class="row"> {% for category in categories %}
 	<div class="col s12 m3">
 		<div class="card bg-success text-white text-shadow center-align">
 			<div class="card-content white-text"> <span class="card-title">{{ category.category_name }}</span> </div>
-			<div class="card-action"> <a href="{{ url_for('edit_category',category_id=category._id) }}" class="btn btn-warning btn-sm active">Edit</a> {# <a href="{{ url_for('delete_category',category_id=category._id) }}" class="btn btn-danger btn-sm active">Delete</a>#} <a id="confirm_modal_button" onclick="openModal()" data-url="{{ url_for('delete_category',category_id=category._id) }}" class="btn btn-danger btn-sm active">Delete</a> </div>
+			<div class="card-action">
+				 <a href="{{ url_for('edit_category',category_id=category._id) }}" class="btn btn-warning btn-sm active">Edit</a>
+				 <a href="{{ url_for('delete_category',category_id=category._id) }}" class="btn btn-danger btn-sm active">Delete</a>
+				</div>
 		</div>
 	</div> {% endfor %} </div>
 
