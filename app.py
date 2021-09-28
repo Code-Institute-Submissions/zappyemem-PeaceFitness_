@@ -35,7 +35,7 @@ def trainings():
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
-    trainings = list(mongo.db.trainings.find({"$text": {"$search": query}}))
+    trainings = list(mongo.db.trainings.find({"$text": {"$search": query }}))
     return render_template("trainings.html", trainings=trainings)
     
 
