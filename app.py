@@ -27,7 +27,9 @@ def fitness_updates():
 
 @app.route("/trainings")
 def trainings():
-    trainings = list(mongo.db.trainings.find())
+    trainings = list(mongo.db.trainings.find(
+        {"created_by":session["user"]}
+    ))
     return render_template("trainings.html", trainings=trainings)
 
 @app.route("/search", methods=["GET", "POST"])

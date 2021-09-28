@@ -1,128 +1,107 @@
-<<<<<<< HEAD
-  First Milestone Project PeaceGym
-       Project's Name - Peace Fitness:
+# *Peace Fitness:*
+<img src="static/assets/home.png">
   
               Peace Fitness is a general body fitness center for good health and personal develop. The ability to deliver your goal with excellence through a progressive actualization of a predetermined goal. 
                    The goal is to encourage members work header and get stronger while living a healthy life style.
                        The gym provides different services that would help members remain focus towards achieving thier goals. It has flexible opening hours and personal trainer that would fit individual time table. 
-=======
-  First Milestone Project
-       Project's Name - Peace Fitness:
-  
-  Peace Fitness is a gym for general body fitness center for good health and personal development. The key to sound health and   vitality. It aims to give users the ability to deliver their goals with excellence through a progressive actualization of a   predetermined goal. The goal is to encourage members work header and get stronger while living a healthy life style. The gym   provides different services that would help members remain focus towards achieving thier goals. It has flexible opening       hours and personal trainers that would fit individual time table. 
->>>>>>> 5c0c392faa44e92c64cc298358bb7a46ab056960
 
-  
-
-  A brief project method:
-   
-   As mentioned earlier the aim of the project is to reach out to people who are interested in change, personal development,     fitness and a live a healthy lifestyle. The passion is driven from my love for staying healthy, maintaining a sound mind,     pyhsical fitness and my love for gym. Also is my passion to see people achieve their goals through hardwork. 
-            
-  I feel starting up a gym will give me a platform to help reach out to many who are currently struggling with                   weight loss, low self esteem and poor dieting leading to poor health conditions. 
-            
-  After going through all the courses I have gathered little knowledge on how to design a simple website like this.             I have also watched lots of tutorials which are listed below and got the section designs from looking at different             gym sites 
-              e.g https://www.friskissvettis.se/ and https://se.fitness24seven.com/vara-gym/se-vara-gym/goteborg-kviberg/
-               
-  Futher details about the project are given below.  
-  
-   
-   User Experience process:
-
-   This project is designed for everyone, young, old, female or male irrespective of their age and sizes. The aim of the         gym is to promote and encourage a healthy lifestyle and sound health for people. There are certified trainers avaliable       for people that may require special training as well as every other persons that requires one. Hence, the gym provides a       free consultation for its members. 
-   
-  There are several benefit attached to being a member at our gym ranging from proffessional advice to up-to-dat                 equipments and machines put in place to help members achieve their desired goals.
-       
-<<<<<<< HEAD
-      The gym provides classes, group trainings, free consultations, trainers, equipment for all levels i.e light, heavy, medium weight
-      to best suit each members level of activities. The machines can be set to desired levels and many more. Group activities are created to inspire members as training together can 
-      help build relationships and consistency toward arriving at set goals. 
-      Different actions are put in place that will help them achieve their goals. 
-
-
-
-=======
-  The gym provides classes, group trainings, free consultations, trainers, equipment for all levels i.e light, heavy,           medium weight to best suit each members level of activities. The machines can be set to desired levels and many more.         Group activities are created to inspire members as training together can help build relationships and consistency toward       arriving at set goals. Different actions are put in place that will help them achieve their goals. 
-      
-      
-  
-  Visitor Goals:
-  
-   The main target audience for The Fitness gym are:
-
-   - People who are interested in living a healthy life style-
-   
-   - People who are interested in exercising.
-   
-   - People who have been recommended by pysician to work on certain part of their body. 
-   
-   - People who love to keep fit and body shapes. 
-   
-   - People who want to loss weight and keep fit. 
-   
-   - People who want to tone or muscles.
-
-   
-  
  
- User goals includes:
+## UX
 
-   - Meeting a targeted goal.
-   
-   - Achieving a desired body shape to boost self confidence.
-   
-   - Accesses to different types of gym machines.
-   
-   - Ability to gym in groups and stay motivated.
-   
-   - Opportunity for self development.
-   
-   - Enjoy browing through the site for relevant informations.
-   
-   - Access to free consultancy.
-   
-   - Access to free 30days subscription.
-   
-   - Flexible time.
->>>>>>> 5c0c392faa44e92c64cc298358bb7a46ab056960
-   
-        Visitor Goals
-   The main target audience for "The Peace Fitness" are:
+### User Goals
 
-   People who are interested in living a healthy life style-
-   People who are interested in exercising.
-   People who have been recommended by Pysiotherapist to work and certain on certain areas of their body. 
-   People who love to keep fit and body shapes. 
+* Give opportunity to people interested in living a healthy life style- through gymn activities.
 
-      
-      User goals includes:
+* For people who are interested in exercising.
 
-   Meeting a targeted goal.
-   Achieving a desired body shape to boost self confidence.
-   Accesses to different types of gym machines.
-   Ability to gym in groups and stay motivated.
-   Opportunity for self development.
-   Enjoy browing through the site for relevant informations.
-   Access to free consultancy.
-   Access to free 30days subscription.
-   Flexible time.
-   Certified trainers.
-   Fitness classes and group training.
-   Products on discount for members. 
-   
+* People who have been recommended for medical rehabilitation to work on certain part of their body.
 
-   These needs can be meet because:
+* People who love to keep fit and body shapes.
 
-   The website has been carefully designed to provide all the neccessary information required by the user and easy to            find. 
+* For people who want to loss weight and keep fit.
+
+### Business Goals
+
+* To create a business platform where people can register and be a member for a fee to meet their fitness needs.
+* A business where all registered users can have access to special trainers and training regime.
+
+* Create a platform where registered users can log-in to their account and record their activities in the gym for future evaluation.
+
+## User Story
+
+#### Persona
+
+* Akinz has been struggling with controlling his weight because he cannot keep track of his training regime and dieting, he found out about Peace Fitness on the web and decided to explore, he found he can do:
+
+* Register his own account.
+* Train with different expert trainers.
+* Keep track of his training on his own account page.
+* Keep track of his diet on his account page.
+
+Afterwards Akinz decided to register and give it a trial.
+            
+ ## Design Choice
+
+ ### Fonts
+
+ * Lato
+ * San Serif
+
+ ### Colour
+
+ <img src="">
+
+ ## Wireframes
+
+ ### Desktop View
+
+<img src="">
+
+### Tablet View
+
+<img src="">
+
+### Mobile View
+
+<img src="">
+
+
+## Features
+
+* Navigation Bar: Allow users to go to different sections of the website.
+<img src="static/assets/landing.png">
+
+* Register: All users must register and they use this medium.
+<img src="static/assets/register.png">
+
+* Login: All registered users log-in to their account through this medium.
+<img src="static/assets/login.png">
+
+* Account: Users can save their training programmes and details on their account page using this medium. It is specific to only logged-in user.
+<img src="static/assets/account.png">
+<img src="static/assets/account2.png">
+
+* Update Account: All registered users are allowed to update information on their account through this medium.
+<img src="static/assets/updatemyaccount.png">
+
+* Categories: As owners, a category section to set what users can store in their account and  these can also be update through Edit category.
+<img src="static/assets/categories.png">
+
+* Search: Users can quickly search through information on their account without having to scroll through all information.
+<img src="static/assets/search.png">
+
+* Delete Confirmation: A confirmation is required before any delete action is effected.
+
+
+
+
+
 
 
   
-   User Stories
-   As a visitor to The Peace Fitness website I expect/want/need:
-
-   To easily find the information they are looking for. 
-
-   The information is presented a way the user can easily understand. 
    
+   
+
 <<<<<<< HEAD
    There is no too much information that coild mislead the user. 
 
