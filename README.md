@@ -1,9 +1,9 @@
 # *Peace Fitness:*
-<img src="static/assets/home.png">
+<img src="static/assets/images/home.png">
   
-              Peace Fitness is a general body fitness center for good health and personal develop. The ability to deliver your goal with excellence through a progressive actualization of a predetermined goal. 
-                   The goal is to encourage members work header and get stronger while living a healthy life style.
-                       The gym provides different services that would help members remain focus towards achieving thier goals. It has flexible opening hours and personal trainer that would fit individual time table. 
+Peace Fitness is a general body fitness center for good health and personal develop. The ability to deliver your goal with excellence through a progressive actualization of a predetermined goal. 
+The goal is to encourage members work header and get stronger while living a healthy life style.
+The gym provides different services that would help members remain focus towards achieving thier goals. It has flexible opening hours and personal trainer that would fit individual time table. 
 
  
 ## UX
@@ -69,26 +69,30 @@ Afterwards Akinz decided to register and give it a trial.
 ## Features
 
 * Navigation Bar: Allow users to go to different sections of the website.
-<img src="static/assets/landing.png">
+<img src="static/assets/images/landing.png">
 
 * Register: All users must register and they use this medium.
-<img src="static/assets/register.png">
+<img src="static/assets/images/register.png">
 
 * Login: All registered users log-in to their account through this medium.
-<img src="static/assets/login.png">
+<img src="static/assets/images/login.png">
+
+* Log Out: All registered users can safely log out from their account through this medium.
+<img src="static/assets/images/logout.png">
 
 * Account: Users can save their training programmes and details on their account page using this medium. It is specific to only logged-in user.
-<img src="static/assets/account.png">
-<img src="static/assets/account2.png">
+<img src="static/assets/images/account.png">
+<img src="static/assets/images/account2.png">
 
 * Update Account: All registered users are allowed to update information on their account through this medium.
-<img src="static/assets/updatemyaccount.png">
+<img src="static/assets/images/updatemyaccount.png">
 
 * Categories: As owners, a category section to set what users can store in their account and  these can also be update through Edit category.
-<img src="static/assets/categories.png">
+<img src="static/assets/images/categories.png">
+<img src="static/assets/images/editcategory.png">
 
 * Search: Users can quickly search through information on their account without having to scroll through all information.
-<img src="static/assets/search.png">
+<img src="static/assets/images/search.png">
 
 * Delete Confirmation: A confirmation is required before any delete action is effected.
 
@@ -102,31 +106,7 @@ Afterwards Akinz decided to register and give it a trial.
    
    
 
-<<<<<<< HEAD
-   There is no too much information that coild mislead the user. 
 
-   The site can be easily navigated and responsive from any device, desktop, tablet or phone. 
-
-   To learn more about the gym and their services. In order to have a clear picture.
-
-   To display all information and images clearly and easy to understand manner irrespective of the size of screen.
-   
-   To be able to pay and register online for membership.
-   
-   To be able to interact with the gym admistrators and get feedbacks. 
-   
-      
-      
-      
-      
-       Features:
-=======
-   
-   Certified trainers.
-   
-   - Fitness classes and group training.
-   
-   - Products on discount for members. 
        
 
    

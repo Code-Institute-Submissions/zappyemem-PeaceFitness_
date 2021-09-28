@@ -51,7 +51,7 @@
             
                 {% if session.user|lower == training.created_by|lower %}
                     <div class="card-action">
-                        <a href="{{ url_for('delete_training', training_id=training._id) }}" class="btn btn-danger btn-sm active">Delete</a>
+                        <a id="{{training._id}}" class="delete_training" href="{{ url_for('delete_training', training_id=training._id) }}" class="btn btn-danger btn-sm active">Delete</a>
                         <a href="{{ url_for('edit_account', training_id=training._id) }}" class="btn btn-success btn-sm active">Edit</a>
                     </div>
                 {% endif %}

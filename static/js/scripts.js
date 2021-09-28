@@ -2,13 +2,40 @@
 
 
 $(document).ready(function(){
+    $('.delete_training').on('click', function(e){
+        e.preventDefault();
+        let item_id = $(this).attr('id'); 
+        console.log({item_id}); 
 
-    // alert();
-    bootbox.alert("Hello world!");
+        bootbox.confirm({
+            size: "small",
+            message: "Are you sure you want to delete this ?",
+            callback: function (result) { /* result is a boolean; true = OK, false = Cancel*/
+              if(result==true){
+                  
+                $.ajax({
+                    methof: "GET", 
+                    url: `/delete_training/${item_id}`, 
+                    cache: false, 
+                    success:function(data){
+                        console.log({data});
+                    }, 
+                    error: function(err){
+                        console.log({err})
+                    }
+                })
+              }
 
 
-    bootbox.confirm("Are you sure?", function(result){
-        /* your callback code */ 
+
+            }
+        })
+
+
+
+
+      
     })
+  
 })
 
