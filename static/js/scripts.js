@@ -18,10 +18,11 @@ $(document).ready(function(){
                     url: `/delete_training/${item_id}`, 
                     cache: false, 
                     success:function(data){
-                        console.log({data});
+                        window.location.reload(); 
                     }, 
                     error: function(err){
-                        console.log({err})
+                        window.location.reload(); 
+
                     }
                 })
               }
